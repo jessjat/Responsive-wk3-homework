@@ -20,6 +20,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  text-align: center;
 }
 
 h3 {
@@ -30,6 +31,7 @@ h3 {
 p {
   font-size: 18px;
   line-height: 1.5;
+  text-align: center;
 }
 
 .navigation-links {
@@ -41,13 +43,13 @@ p {
 .navigation-links a {
   margin: 20px;
 }
-@media( min-width 500px){
-  .primary-link{
-    display:block;
-
-   
+@media(max-width:576px){
+  p{
+    text-align: center;
   }
+
 }
+
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;
